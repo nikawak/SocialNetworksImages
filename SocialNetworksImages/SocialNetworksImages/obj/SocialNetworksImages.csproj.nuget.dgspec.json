@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Programming\\Projects\\SotialNetworkImages\\SocialNetworksImages\\SocialNetworksImages\\SocialNetworksImages.csproj": {}
+    "E:\\education\\asp\\SocialNetworksImages\\SocialNetworksImages\\SocialNetworksImages\\SocialNetworksImages.csproj": {}
   },
   "projects": {
-    "C:\\Programming\\Projects\\SotialNetworkImages\\SocialNetworksImages\\SocialNetworksImages\\SocialNetworksImages.csproj": {
+    "E:\\education\\asp\\SocialNetworksImages\\SocialNetworksImages\\SocialNetworksImages\\SocialNetworksImages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programming\\Projects\\SotialNetworkImages\\SocialNetworksImages\\SocialNetworksImages\\SocialNetworksImages.csproj",
+        "projectUniqueName": "E:\\education\\asp\\SocialNetworksImages\\SocialNetworksImages\\SocialNetworksImages\\SocialNetworksImages.csproj",
         "projectName": "SocialNetworksImages",
-        "projectPath": "C:\\Programming\\Projects\\SotialNetworkImages\\SocialNetworksImages\\SocialNetworksImages\\SocialNetworksImages.csproj",
-        "packagesPath": "C:\\Users\\HONOR\\.nuget\\packages\\",
-        "outputPath": "C:\\Programming\\Projects\\SotialNetworkImages\\SocialNetworksImages\\SocialNetworksImages\\obj\\",
+        "projectPath": "E:\\education\\asp\\SocialNetworksImages\\SocialNetworksImages\\SocialNetworksImages\\SocialNetworksImages.csproj",
+        "packagesPath": "C:\\Users\\who\\.nuget\\packages\\",
+        "outputPath": "E:\\education\\asp\\SocialNetworksImages\\SocialNetworksImages\\SocialNetworksImages\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HONOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\who\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.Owin.Security.OAuth": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
