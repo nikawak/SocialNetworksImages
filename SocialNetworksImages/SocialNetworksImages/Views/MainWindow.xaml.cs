@@ -1,4 +1,5 @@
-﻿using SocialNetworksImages.Services.ApiVK;
+﻿using SocialNetworksImages.Services;
+using SocialNetworksImages.Services.ApiVK;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,8 +26,6 @@ namespace SocialNetworksImages
         {
             InitializeComponent();
         }
-
-
 
     }
 }
